@@ -1,7 +1,7 @@
 
 function getLocation() {
     if (navigator.geolocation) {
-        return {lat : position.coords.latitude, lng : position.coords.longitude;}
+        return {lat : position.coords.latitude, lng : position.coords.longitude}
     } else {
         alert ("Geolocation is not supported by this browser.");
     }
