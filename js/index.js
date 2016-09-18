@@ -8,7 +8,7 @@ function getLocation() {
             $.ajax({
 
                 dataType: "json",
-                url: "https://api.openweathermap.org/data/2.5/weather?lat="+ lat +"&lon="+ lng +"&appid=4aa684b4b966ef5ad0eb51136c4fb8ed&units=metric",
+                url: forecast,
                 success: function (data){
                     alert("this works");
                 }
