@@ -1,0 +1,45 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: radial-gradient(rgb(86, 146, 215), rgba(0, 0, 0, 0.8));
+    color: white;
+    font-family: "lato", sans-serif;
+    font-weight: 300;
+}
+.headtitle{
+    font-family: 'Roboto Slab', serif;
+    font-size: 48px;
+}
+.wrapper{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+.infowrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+.infowrapper p h1 {
+    padding: 0;
+    margin: 3px;
+
+}
+.weatherbox{
+    font-size: large;
+}
+.location{
+    text-transform: uppercase;
+}
