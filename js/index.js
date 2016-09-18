@@ -9,7 +9,7 @@ function getLocation() {
                     alert("this works");
                 }
             });
-        });
+        
     } else {
         alert("Geolocation is not supported by this browser.");
     }
